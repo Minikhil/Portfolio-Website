@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+
+    <title> Nikhil Mithani </title>
+    <link rel="icon" type="image/png" href="favicons.png" sizes="32x32" />
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+        <!-- seting content width acrroding to device size and setting zoom -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <!-- link jquery -->
+          <!-- link jquery b4 bootstrap for nav bar to collapse -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+      <!-- modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+        <!-- link my java script file -->
+    <script src="index.js"></script>
+
+  </head>
+  <!-- Whats inside body tag is for highlighting navbar on scroll -->
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+    <!-- video background -->
+    <video autoplay loop id="video-background" muted plays-inline>
+      <source src="images/vid.mp4" type="video/mp4">
+    </video>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <!-- creates menu button on right on mobile device -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <!-- 3 icon bars for # of line in menu button -->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <!-- <a href="#" class="navbar-brand">
+                <img class=" img-circle img-responsive" src="../images/logo.png" width="150" height="150"/>
+              </a> -->
+          </div>
+          <!-- Collection of nav links and other content for toggling -->
+          <div class="navbar-collapse collapse" id="navbar-collapse">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#home">HOME</a> </li>
+                  <li> <a href="#about">ABOUT</a> </li>
+                  <li> <a href="#resume">RESUME</a> </li>
+                  <li> <a href="#projects">PROJECTS</a> </li>
+                  <li> <a href="#contact">CONTACT</a></li>
+                  <li><a href="https://www.linkedin.com/in/nikhilmithani" target="_blank">LinkedIn
+                     <img src = "images/linkedin2.jpg" alt="HTML5 Icon" width="20" height="20">
+                  </a></li>
+
+                  <li><a href="https://github.com/Minikhil" target="_blank">GitHub</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <div class = "row backgroundimg" id = "home">
+    <div class = "container-fluid">
+      <center>
+        <span id= "heading">
+            <h1><span style = "color:black"> Nikhil Mithani </span> <h1>
+            <h2><span style = "color:#b3cccc"> Software Developer </span> <h2>
+
+        </span>
+        <div id =#profile>
+          <a href="#about">
+            <span class = "glyphicon glyphicon-chevron-down" id= "down"></span>
+          </a>
+        </div>
+      </center>
+    </div>
+  </div>
+
+  <div class="container" id= "about">
+    <section>
+      <div class= "col-lg-12 page-header slideanim">
+        <h1> About Me</h1>
+      </div>
+      <div class="row">
+        <div class = wrapper col-sm-12 id = "profile-pic">
+           <img class=" img-circle img-responsive" src="images/profile-pic3.jpg" width="400" height="400"/>
+        </div>
+        <div class ="col-sm-5" id = "about_msg">
+          <p class = intro> Hi, I'm Nikhil Mithani, junior computer science student at
+              University at Buffalo.
+          </p>
+          <p>I enjoy spending time on fixing minor details and optimizing
+              my projects. I prefer to work in a team because I learn faster and much more.
+              I love being challenged and working with new technology.
+          </p>
+          <p>
+              On my free time I like to cruise on my skateboard and relax on the beach.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+    <div class="container resume " id= "resume" >
+      <section>
+        <div class= "col-lg-12 page-header slideanim">
+        <h1> Experiences</h1>
+        </div>
+        <div class="row">
+          <div class = "container">
+            <h3> EDUCATION</h3>
+          </div>
+          <div class = col-lg-4>
+
+            <p>
+              <strong> University at Buffalo </strong> </br>
+
+              August 2015 - Present
+            </p>
+
+
+          </div>
+          <div class = col-lg-7>
+            <p>
+
+              <strong> Bachelor of Science in Computer Science, expected May 2019 </strong> </br>
+              <a href="#icon"><span class = "glyphicon glyphicon-map-marker" style="color:white"> Amherst, NY</span></a>
+            </p>
+
+          </div>
+        </div>
+        <div class="row resume-col">
+            <div class = "container">
+              <h3> CAREER</h3>
+            </div>
+            <div class = col-lg-4>
+              <p><strong> Sub-Board I, Information Systems </strong> </br>
+                          March 2018 - Present
+              </p>
+            </div>
+            <div class = col-lg-6>
+              <p><strong> Web Developer </strong> </br>
+                <ul>
+                  <li> Create and update content for multiple websites under the Sub-Board network</li>
+                  <li> Create WordPress templates</li>
+                  <li> Develop SQL database for SBI Off Campus Housing website</li>
+                </ul>
+                <a href="#icon"><span class = "glyphicon glyphicon-map-marker" style="color:white"> Amherst, NY</span></a>
+              </p>
+            </div>
+            <div class = col-lg-4>
+              <p><strong> University at Buffalo Career Services </strong> </br>
+                          August 2017 - March 2018
+              </p>
+            </div>
+            <div class = col-lg-6>
+              <p><strong>Data Entry Clerk </strong> </br>
+                <ul>
+                  <li> Enter job and internship vacancies onto Bullseye powered by Handshake</li>
+                  <li> Create employer/student reports from existing data</li>
+                  <li> Serve as employer information session host</li>
+                  <li> General administrative work</li>
+                </ul>
+                <a href="#icon"><span class = "glyphicon glyphicon-map-marker" style="color:white"> Amherst, NY</span></a>
+              </p>
+            </div>
+
+
+           <!--Container Ends______________________________  -->
+        </div>
+
+
+          <div class="row">
+            <div class = "container">
+              <h3> TECHNICAL SKILLS</h3>
+            </div>
+
+
+            <div class = col-lg-12>
+              <div class="container skillbar">
+                <div class="skills java  ">Java</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class = col-lg-12>
+              <div class="container skillbar" >
+                <div class="skills c-plus">C++</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class = col-lg-12>
+              <div class="container skillbar">
+                <div class="skills bootstrap">Phython</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class = col-lg-12>
+              <div class="container skillbar">
+                <div class="skills html">HTML</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class = col-lg-12>
+              <div class="container skillbar ">
+                <div class="skills css">CSS</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class = col-lg-12>
+              <div class="container skillbar">
+                <div class="skills html">Bootstrap</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class = col-lg-12>
+              <div class="container skillbar">
+                <div class="skills java-script">JavaScript</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class = col-lg-12>
+              <div class="container skillbar">
+                <div class="skills java-script">Angular</div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <div class="container" id= "projects">
+        <section>
+          <div class= "col-lg-12 page-header slideanim">
+          <h1> Projects</h1>
+          </div>
+          <div class="row">
+            <div class="popup" id = "popup" >
+              <button id="closeBtn" onclick="closebox()"><span class = "glyphicon glyphicon-remove"> </span></button>
+              <iframe id="popupFrame" src="Projects/pingPong2.html" height="620" width="820">
+               <!-- <img src = "images/ping_pong.png" alt="HTML5 Icon" width="200" height="200"> -->
+             </iframe>
+            </div>
+            <!-- <div class = col-lg-4 id= "website">
+              <h3> AkeelMithani.com </h3>
+              <li><a href="http://akeelmithani.com/" target="_blank"><img src = "images/akeel-site.jpg" alt="HTML5 Icon" width="220" height="200"></a></li>
+            </div> -->
+            <div class = col-lg-4 project-box>
+              <h3> Ping Pong</h3>
+              <button class = "modalBtn" onclick="showbox()">
+                <a><img src = "images/ping_pong.png" id = "image" alt="HTML5 Icon" width="200" height="200"></a>
+              </button>
+            </div>
+            <div class = col-lg-4 id= "website">
+              <h3> Pig Dice </h3>
+              <li><a href="Projects/Pig-game/pigG.html" target="_blank"><img src = "images/Pig-game-image.png" alt="HTML5 Icon" width="220" height="200"></a></li>
+
+            </div>
+
+          </div>
+          <div class = "row">
+            <div class = col-lg-4 project-box>
+              <h3> Brick Breaker </h3>
+              <button class = "modalBtn" onclick="showbox2()">
+                <a> <img src = "images/brick_breaker.png" alt="HTML5 Icon" width="200" height="200"> </a>
+              </button>
+              <div class = "popup" id = "popup2">
+                <button id="closeBtn" onclick="closebox2()"><span class = "glyphicon glyphicon-remove"> </span></button>
+                <iframe id="popupFrame2" src="Projects/brickBreaker.html" height="620" width="820"></iframe>
+              </div>
+            </div>
+          </div>
+
+
+        </section>
+      </div>
+
+      <div class="container" id="contact">
+        <section>
+          <div class= "col-lg-12 page-header slideanim">
+          <h1> Contact me</h1>
+          </div>
+          <div class="col-sm-5">
+            <p> Have a project you would like me to work on?
+              Or just discuss some ideas? Give me an
+              email and I will get back to you within 24 hours.
+            </p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> New York, US</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> nikhilmi@buffalo.edu</p>
+          </div>
+          <div class="col-sm-7 ">
+            <form action="https://formspree.io/nikhilmi@buffalo.edu"method="POST">
+               <div class="row">
+                   <div class="col-sm-6 form-group">
+                     <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                   </div>
+                   <div class="col-sm-6 form-group">
+                     <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required>
+                   </div>
+               </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+               <div class="row">
+                 <div class="col-sm-12 form-group">
+                   <button class="btn btn-default pull-right" type="submit" value="Send">Send</button>
+                 </div>
+               </div>
+               <div id = backTopBtn>
+                 <a href= "#home">
+                   <span id = "up" class = "glyphicon glyphicon-chevron-up button"  ></span>
+                 </a>
+               </div>
+            </form>
+           </div>
+        </section>
+      </div>
+
+
+
+    <footer class="navbar-default" >
+      <div class="container-fluid text-center " id ="footer">
+          <span> Proudly Created by Nikhil Mithani</span> </br>
+          <h6>
+            <span style="color: #b3b3b3"> Video by VFX Footage </span>
+          <h6>
+
+      </div>
+
+
+    </footer>
+  </body>
+</html>

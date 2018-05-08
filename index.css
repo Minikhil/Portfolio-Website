@@ -1,0 +1,217 @@
+
+body html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+
+}
+body{
+  padding-top: 40px;
+  color: white;
+}
+
+.container{
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+.backgroundimg{
+  background-image: url(images/bg9.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  height: 100vh;
+
+
+
+}
+.navbar-brand{
+  position: relative;
+  bottom: 65px;
+  size: 100px;
+}
+#heading{
+  position: relative;
+  top:700px;
+}
+h1{
+  text-align: center;
+}
+{
+  text-align: center;
+}
+#profile-pic{
+  /*padding-left: 70px;
+  position: relative;
+  top:45px;*/
+  padding-top: 50px;
+
+}
+.wrapper { float: left; clear: left; display: table; table-layout: fixed;
+ }
+img.img-responsive {display: table-cell; max-width: 100%; }
+#about_msg{
+  font-size: 20px;
+  padding-top: 100px;
+  /*padding-left: 50px;*/
+  /*font-weight: bold;*/
+  opacity:20;
+
+}
+.resume{
+  font-size: 20px;
+
+}
+.resume-col{
+  margin-top:20px;
+
+}
+
+.skillbar{
+  background-color: #808080; /*Grey background*/
+  width: 80%;
+    /*Creates space between bar rows */
+  margin-top:20px;
+  margin-left: 0px;
+}
+.skills{
+  color: white;
+  padding-left: 20px;
+}
+.java {width: 70%; background-color: black;}
+.c-plus {width: 60%; background-color: black;}
+.phython {width: 20%; background-color: black;}
+.html {width: 90%; background-color: black;}
+.css {width: 60%; background-color: black;}
+.java-script {width: 20%; background-color: black;}
+.bootstrap {width: 50%; background-color: black;}
+
+
+
+.popup{
+  display: none;
+ margin: 0 auto;
+ border-style: none;
+
+ /*box-shadow: 1px 1px 1px 1px black;*/
+}
+/*ping pong game btn*/
+.modalBtn{
+  display: inline;
+  opacity: 0.7;
+}
+.modalBtn:hover{
+  background-color: black;
+
+}
+#website li{
+  list-style-type: none;
+}
+
+
+#closeBtn{
+  color: black;
+  opacity: 0.3;
+}
+
+#backTopBtn{
+  font-size: 30px;
+  position: relative;
+  left: 50px;
+
+}
+#up{
+  color: white;
+}
+
+#footer
+{
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+@media(max-width:500px){
+
+    #footer{
+        float:left;
+        width:109%;
+        margin-left:-5%;
+    }
+
+}
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+.navbar-nav li a:hover{
+  color: white !important;
+  background-color: black !important;
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+
+
+
+}
+@media screen and (max-width: 1024px){
+  body{
+    background: white;
+    
+  }
+}
+@media screen and (max-width: 715px){
+  body{
+    background: white;
+
+  }
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    video {
+        display:none;
+    }
+    body{
+      background-color: white;
+      background: white;
+      color: black;
+
+    }
+    #up{
+      color: black;
+      vertical-align: middle;
+    }
+    p{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    .intro{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+}
+
+/*.navbar-nav li.active a {
+      color: white !important;
+      background-color: black !important;
+  }*/
